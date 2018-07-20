@@ -11,7 +11,14 @@
 		<div class="wrapper">
 			<header class="header">
 				<div class="logo">Logo</div>
-				<nav class="header-nav"></nav>
+				<nav class="header-nav">
+					<ul class="nav-menu">
+						<li class="nav-menu_li">Main</li>
+						<li class="nav-menu_li">Brog</li>
+						<li class="nav-menu_li">Store</li>
+						<li class="nav-menu_li">Submit</li>
+					</ul>
+				</nav>
 			</header>
 			<div class="main">
 				<section class="section1">
@@ -20,24 +27,44 @@
 				</section>
 				<section class="section2">
 					<div class="content-container">
-						<div class="content-title"></div>
+						<div class="content-title">
+							<div class="content-title_date">Date</div>
+							<div class="content-title_post">The First Post</div>
+						</div>
 						<div class="content"></div>
-						<div class="content-votes"></div>
+						<div class="content-votes">Votes</div>
 					</div>
 				</section>
 				<section class="section3">
 					<div class="singup">
 						<form class="signup-form">
-
+							<div class="signup-form-email">
+								<label class="signup-label" for="email">Your email:</label>
+								<input type="email" class="signup-email" id="email" placeholder="your email...">
+							</div>
+							<input type="submit" class="signup-button" value="Subscribe me">
 						</form>
 					</div>
 					<div class="search">
 						<form class="search-form">
-
+							<label for="search" class="search-label">Search</label>
+							<input id="search" class="search-input" type="search">
 						</form>
 					</div>
 				</section>
 			</div>
+			<footer class="footer">
+				<nav class="footer-nav">
+					<li class="footer-nav_li">Home</li>
+					<li class="footer-nav_li">Brog</li>
+					<li class="footer-nav_li">Store</li>
+					<li class="footer-nav_li">Massage Board</li>
+					<li class="footer-nav_li">Advertise</li>
+					<li class="footer-nav_li">Contact us</li>
+					<li class="footer-nav_li">Disclaimer</li>
+				</nav>
+				<span class="copyright">© 1999 - 2013 Engrish.com. All rights reserved.</span>
+			</footer>
 		</div>
 	</body>
 </html>
