@@ -268,11 +268,15 @@ li {
 		margin: 0 auto;
 		font-size: 40px;
 	}
+	.header-nav {
+		justify-content: center;
+	}
 	.nav-menu {
 		width: 95%;
 	}
 	.nav-menu_li {
 		font-size: 20px;
+		padding-right: 0;
 	}
 	.main {
 		flex-direction: column;
